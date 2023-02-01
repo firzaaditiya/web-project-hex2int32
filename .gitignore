@@ -1,0 +1,4 @@
+# hide folder vendor
+/vendor
+
+.phpunit.result.cache

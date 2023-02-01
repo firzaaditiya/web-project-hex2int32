@@ -1,0 +1,23 @@
+<phpunit colors="true" stopOnError="true" verbose="true">
+    <testsuites>
+        <testsuite name="all">
+            <directory>test</directory>
+        </testsuite>
+
+        <testsuite name="view">
+            <file>test/App/ViewTest.php</file>
+        </testsuite>
+
+        <testsuite name="homecontroller">
+            <file>test/Controller/HomeControllerTest.php</file>
+        </testsuite>
+
+        <testsuite name="hexconverter">
+            <file>test/App/HexConverterTest.php</file>
+        </testsuite>
+
+        <testsuite name="convertcontroller">
+            <file>test/Controller/ConvertControllerTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

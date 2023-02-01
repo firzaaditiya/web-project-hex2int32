@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #0A2647;
+}
+
+.nav__links {
+    list-style: none;
+    text-align: center;
+}
+
+.nav__links li, .nav__links li a {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.nav__links a:hover {
+    background-color: #FFFFFF;
+    color: #0A2647;
+    border-radius: 10%;
+    font-size: 25px;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.button-submit {
+    padding: 5px 15px;
+}
+
+.container__main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.user__inputs {
+    text-align: center;
+}
+
+.user__inputs label, .user__inputs button, .user__inputs textarea {
+    display: block;
+    margin: 10px auto auto auto;
+}
+
+.textarea__inputs {
+    resize: none;
+/*    font-size: 20px; */
+    text-align: center;
+}
+
+textarea::placeholder {
+    text-align: center;
+}
+
+.error__message {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.result__analyze {
+    margin: 10px auto;
+}
+
+.table__result {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table__result thead tr {
+    background-color: #0A2647;
+    color: #FFFFFF;
+}
+
+.table__result th, .table__result td {
+    padding: 5px;
+    font-size: small;
+}
+
+.title__text {
+    margin: 10px auto;
+}
+
+.explains__paraf {
+    text-align: center;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #0A2647;
+}
+
+.container__footer {
+    margin: auto;
+    max-width: 1170px;
+    color: #FFFFFF;
+}
+
+.footer__col {
+    width: 25%;
+    padding: 0px 15px;
+}
+
+.footer__col h4 {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer__col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FFFFFF;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer__col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer__col ul li a:hover {
+    padding-left: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row ul {
+    list-style: none;
+}
+
+.footer__col .social__links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #FFFFFF;
+    color: #0A2647;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.footer__col .social__links a:hover {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+/* responsive */
+@media(max-width: 767px) {
+    .footer__col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer__col {
+        width: 100%;
+    }
+}
