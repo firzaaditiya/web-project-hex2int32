@@ -61,17 +61,17 @@
                         <tbody>
                             <tr>
                                 <td>Unsigned</td>
-                                <td><?= $model["UINT32"]["BIG_ENDIAN"] ?></td>
-                                <td><?= $model["UINT32"]["LITTLE_ENDIAN"] ?></td>
-                                <td><?= $model["UINT32"]["MID_BIG_ENDIAN"] ?></td>
-                                <td><?= $model["UINT32"]["MID_LITTLE_ENDIAN"] ?></td>
+                                <td><?= $model["UINT32"]["BIG_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["UINT32"]["LITTLE_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["UINT32"]["MID_BIG_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["UINT32"]["MID_LITTLE_ENDIAN"] ?? "" ?></td>
                             </tr>
                             <tr>
                                 <td>Singed</td>
-                                <td><?= $model["INT32"]["BIG_ENDIAN"] ?></td>
-                                <td><?= $model["INT32"]["LITTLE_ENDIAN"] ?></td>
-                                <td><?= $model["INT32"]["MID_BIG_ENDIAN"] ?></td>
-                                <td><?= $model["INT32"]["MID_LITTLE_ENDIAN"] ?></td>
+                                <td><?= $model["INT32"]["BIG_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["INT32"]["LITTLE_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["INT32"]["MID_BIG_ENDIAN"] ?? "" ?></td>
+                                <td><?= $model["INT32"]["MID_LITTLE_ENDIAN"] ?? "" ?></td>
                             </tr>
                         </tbody>
                     </table>

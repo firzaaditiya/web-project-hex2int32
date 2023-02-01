@@ -20,14 +20,10 @@ class ViewTest extends TestCase
 
         $this->expectOutputRegex("[Hex to Interger]");
         $this->expectOutputRegex("[You can convert hexadecimal to integer 32 and unsigned integer 32]");
-        $this->expectOutputRegex("[uint32 Big Endian]");
-        $this->expectOutputRegex("[uint32 Little Endian]");
-        $this->expectOutputRegex("[uint32 Mid-Big Endian]");
-        $this->expectOutputRegex("[uint32 Mid-Little Endian]");
-        $this->expectOutputRegex("[int32 Big Endian]");
-        $this->expectOutputRegex("[int32 Little Endian]");
-        $this->expectOutputRegex("[int32 Mid-Big Endian]");
-        $this->expectOutputRegex("[int32 Mid-Little Endian]");
+        $this->expectOutputRegex("[Big Endian]");
+        $this->expectOutputRegex("[Little Endian]");
+        $this->expectOutputRegex("[Mid Big Endian]");
+        $this->expectOutputRegex("[Mid Little Endian]");
     }
 
     /**
