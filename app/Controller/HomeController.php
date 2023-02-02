@@ -9,7 +9,7 @@ class HomeController
     public function index() : void
     {
         View::render("Home/index", array(
-            "title" => "Hex to Integer32"
+            "title" => "Hex to Integer 32 Bit"
         ));
     }
 }
